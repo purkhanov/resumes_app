@@ -4,7 +4,7 @@ import json
 from aiohttp import ClientSession
 
 
-gemeni_api = "AIzaSyC2A-VjgVv2XW6HsnEZJ6KndqjwCmyO4kg"
+gemeni_api = ""
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={gemeni_api}"
 headers = {"Content-Type": "application/json"}
 static = "/static/resumes/"
